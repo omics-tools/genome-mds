@@ -21,6 +21,8 @@ from PIL import Image
 import sys
 
 sys.path.append(os.getcwd())
+sys.path.append('../genome_mds')
+
 import genome_mds
 
 top_image = Image.open("{0}/img/logo.png".format(genome_mds.__path__[0]))
