@@ -5,6 +5,8 @@ import pkg_resources
 
 from streamlit import cli as stcli
 
+sys.path.append(os.getcwd())
+
 def main():
     """Console script for genome_mds."""
     parser = argparse.ArgumentParser(description='Genome-MDS\n Version : 0.0.1')

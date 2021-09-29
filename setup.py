@@ -10,7 +10,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['streamlit_bokeh_events>=0.1.2','streamlit==0.89.0','pandas','numpy','scikit-learn','biopython','bokeh==2.2.0']
+requirements = ['streamlit_bokeh_events>=0.1.2','streamlit==0.89.0','pandas','numpy','scikit-learn','biopython','bokeh==2.2.0','watchdog','ncbi-genome-download']
 
 test_requirements = [ ]
 
@@ -27,8 +27,9 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Topic :: Scientific/Engineering :: Bio-Informatics',
     ],
-    description="a graphical two-dimensional comparison tool for prokaryotic genomes",
+    description="Genome-MDS: A graphical two-dimensional comparison tool for prokaryotic genomes",
     entry_points={
         'console_scripts': [
             'genome-mds=genome_mds.cli:main',

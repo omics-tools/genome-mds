@@ -18,6 +18,9 @@ from streamlit_bokeh_events import streamlit_bokeh_events
 from sklearn.manifold import MDS
 import zipfile
 from PIL import Image
+import sys
+
+sys.path.append(os.getcwd())
 import genome_mds
 
 top_image = Image.open("{0}/img/logo.png".format(genome_mds.__path__[0]))

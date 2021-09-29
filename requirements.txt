@@ -5,5 +5,5 @@ numpy
 scikit-learn
 biopython
 bokeh==2.2.0
+ncbi-genome-downloads
 watchdog
-ncbi-genome-download
