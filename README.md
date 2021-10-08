@@ -14,23 +14,13 @@ Genome-MDS: A graphical two-dimensional comparison tool for prokaryotic genomes
 
 ## Installation
 
-**Bioconda installation (recommend)**
-
-1. Please install genome-mds with Bioconda
-
-`conda install -c bioconda genome-mds`
-
-**Manual installation**
-
 1. Please install requirement tools according the developer's instructions.
 
 ・[FastANI](https://github.com/ParBLiSS/FastANI)
 
-・[NCBI-genome-download](https://github.com/kblin/ncbi-genome-download)
+2. Install genome-mds with pip
 
-2. Install genome-mds through the github
-
-`pip install git+https://github.com/omics-tools/genome-mds`
+`pip install genome-mds`
 
 ## Usage
 
