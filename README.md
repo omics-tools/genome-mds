@@ -32,6 +32,8 @@ Then, Genome-MDS will open automatically in your browser.
 
 If Genome-MDS does not open, type the localhost address (e.g. http://localhost:8501/) of the streamlit server displayed in your terminal into the address bar of your browser.
 
+This tool is powered by the [streamlit app](https://streamlit.io/). You may be asked to enter your email address when you first start the program, but this is not mandatory.
+
 ## Manual
 
 **STEP0: Go to your working directory**
