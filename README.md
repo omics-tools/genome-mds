@@ -61,7 +61,7 @@ This tool is powered by the [streamlit app](https://streamlit.io/). You may be a
 
 To exit Genome-MDS, type `Control-C` in your terminal.
 
-If you use a conda environment for genome-mds, you need to deactivate the environment.
+If you use the conda environment for genome-mds, you may need to deactivate it.
 
 `conda deactivate <your-env-name>`
 
@@ -101,7 +101,7 @@ You should upload your (multiple) genome sequences. The format of the file shoul
 **STEP3: Download sequences**
 
 This step is optional. If you don't need to download anything, select None.
-You can automatically download the genomes you want to compare. This corresponds to the Taxonomy ID of NCBI; please enter your email address and the desired Taxonomy ID to query NCBI.Genome-MDS will contact NCBI to get the list of genome sequences first, and you can choose any sequence you want from this list. The selected sequences will be automatically downloaded to the output directory by clicking the Download button.
+You can automatically download the genomes you want to compare. This corresponds to the [Taxonomy ID](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi) of NCBI; please enter your email address and the desired Taxonomy ID to query NCBI. Genome-MDS will contact NCBI to get the list of genome sequences first, and you can choose any sequence you want from this list. The selected sequences will be automatically downloaded to the output directory by clicking the Download button.
 
 <p align="center">
   <img src="https://mitosuite.com/images/for_genome_mds/step3.png" alt="step3"/>
