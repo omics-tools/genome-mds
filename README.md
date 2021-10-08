@@ -12,15 +12,38 @@ Genome-MDS: A graphical two-dimensional comparison tool for prokaryotic genomes
 
 ![screenshot](https://mitosuite.com/images/for_genome_mds/genome_mds_preview.gif)
 
-## Installation
+## Requirements for installation
+&emsp;Python 3 (Recommended version: >= 3.8)
+  
+&emsp;Pip
+  
+&emsp;[FastANI](https://github.com/ParBLiSS/FastANI)
 
-1. Install FastANI according the developer's instructions.
+## Installation procedure
 
-・[FastANI](https://github.com/ParBLiSS/FastANI)
+1. Install [FastANI](https://github.com/ParBLiSS/FastANI) according the developer's instructions.
 
 2. Install genome-mds with pip
 
-`pip install genome-mds`
+&emsp;`pip install genome-mds`
+
+Here is an installation example with [bioconda](https://bioconda.github.io/):
+
+&emsp;Create a conda enviroment for genome-mds
+
+&emsp;`conda create -n genome_mds_env python=3.8`
+
+&emsp;Activate the environment
+
+&emsp;`conda activate genome_mds_env`
+
+&emsp;Install FastANI on the environment
+
+&emsp;`conda install -c bioconda fastani`
+
+&emsp;Install genome-mds
+
+&emsp;`pip install genome-mds`
 
 ## Usage
 
@@ -33,6 +56,20 @@ Then, Genome-MDS will open automatically in your browser.
 If Genome-MDS does not open, type the localhost address (e.g. http://localhost:8501/) of the streamlit server displayed in your terminal into the address bar of your browser.
 
 This tool is powered by the [streamlit app](https://streamlit.io/). You may be asked to enter your email address when you first start the program, but this is not mandatory.
+
+**Exit Genome-MDS**
+
+To exit Genome-MDS, type `Control-C` in your terminal.
+
+If you use a conda environment for genome-mds, you need to deactivate the environment.
+
+`conda deactivate <your-env-name>`
+
+**Optional Run**
+
+Change the maximum limit size of file uploadling to 1GB (1024MB) and Run Genome-MDS.
+
+`genome-mds -M 1024`
 
 ## Manual
 
@@ -92,21 +129,11 @@ Interactive MDS allows you to select sequences automatically. This operation all
   <img src="https://mitosuite.com/images/for_genome_mds/step5_2.png" alt="step5_2" />
 </p>
 
-**Exit Genome-MDS**
-
-To exit Genome-MDS, type Control-C in your terminal.
-
-**Optional Run**
-
-Example: change the maximum limit size of file uploadling to 1GB (1024MB).
-
-`genome-mds -M 1024`
-
 
 ## Version
 
-0.0.1
+&emsp;0.0.1
 
 ## Licence
 
-[MIT] https://github.com/omics-tools/genome-mds/blob/master/LICENSE
+&emsp;[MIT] https://github.com/omics-tools/genome-mds/blob/master/LICENSE
