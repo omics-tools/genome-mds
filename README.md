@@ -14,7 +14,7 @@ Genome-MDS: A graphical two-dimensional comparison tool for prokaryotic genomes
 
 ## Installation
 
-1. Please install requirement tools according the developer's instructions.
+1. Install FastANI according the developer's instructions.
 
 ・[FastANI](https://github.com/ParBLiSS/FastANI)
 
